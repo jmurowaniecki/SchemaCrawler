@@ -148,10 +148,9 @@ public class SpringIntegrationTest
     }
     else
     {
-      failures
-        .addAll(compareOutput(executableName + ".txt",
-                              testOutputFile,
-                              TextOutputFormat.text.name()));
+      failures.addAll(compareOutput(executableName + ".txt",
+                                    testOutputFile,
+                                    TextOutputFormat.text.name()));
     }
   }
 

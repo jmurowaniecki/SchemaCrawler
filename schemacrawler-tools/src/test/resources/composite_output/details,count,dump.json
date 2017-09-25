@@ -2791,6 +2791,11 @@
         "value": true
       },
       {
+        "name": "supportsSharding",
+        "description": "supports sharding",
+        "value": false
+      },
+      {
         "name": "supportsStatementPooling",
         "description": "supports statement pooling",
         "value": true
@@ -2933,7 +2938,7 @@
     "databaseUserName": "SA"
   },
   "schemaCrawlerHeaderInfo": {
-    "crawlTimestamp": "2017-05-31 00:43:02",
+    "crawlTimestamp": "2017-09-24 00:31:53",
     "title": ""
   },
   "routines": [
